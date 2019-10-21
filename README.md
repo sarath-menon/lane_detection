@@ -1,5 +1,5 @@
 # lane_detection
-Lane detection code for the Mahindra Autonomous code project. This repository is inspired by https://github.com/FrenkT/LaneTracking. The sample video can be downloaded from https://drive.google.com/open?id=15pWD7tbbDhYkAhP9FU1Wm_rA0oz-E9Xw. Put it in the lane_detection directory
+ROS bases Lane detection code for the Mahindra Autonomous code project. This repository is inspired by https://github.com/FrenkT/LaneTracking. The sample video can be downloaded from https://drive.google.com/open?id=15pWD7tbbDhYkAhP9FU1Wm_rA0oz-E9Xw. Put it in the lane_detection directory
 
  ## Installation
  ```
