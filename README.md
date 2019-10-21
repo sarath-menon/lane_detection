@@ -1,5 +1,5 @@
 # lane_detection
-Lane detection code for the Mahindra Autonomous code project
+Lane detection code for the Mahindra Autonomous code project. This repository is inspired by https://github.com/FrenkT/LaneTracking. The sample video can be downloaded from https://drive.google.com/open?id=15pWD7tbbDhYkAhP9FU1Wm_rA0oz-E9Xw. Put it in the lane_detection directory
 
  ## Installation
  ```
@@ -9,10 +9,16 @@ Lane detection code for the Mahindra Autonomous code project
  cd catkin_make
 ```
 
- ## Run lane detection on sample video
+ ## Run lane detection on sample video in ROS
 
  ```
  rosrun lane_detection main.py
 ```
 
-The sample video can be downloaded from https://drive.google.com/open?id=15pWD7tbbDhYkAhP9FU1Wm_rA0oz-E9Xw. Put it in the lane_detection directory
+ ## Using without ROS
+
+In case ROS is not installed in your system or you want to use it in Mac os Windows, then go inside the scripts directory and run the following command.
+
+```
+python main_without_ros.py
+```
